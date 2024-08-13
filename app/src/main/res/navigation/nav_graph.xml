@@ -3,24 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/fragment_progress">
+    app:startDestination="@id/progressFragment">
 
     <fragment
-        android:id="@+id/fragment_forest"
-        android:name="pl.bk20.forest.trees.ForestFragment"
-        android:label="@string/forest"
-        tools:layout="@layout/fragment_forest" />
+        android:id="@+id/settingsFragment"
+        android:name="pl.bk20.forest.settings.SettingsFragment"
+        android:label="@string/settings" />
 
     <fragment
-        android:id="@+id/fragment_progress"
+        android:id="@+id/progressFragment"
         android:name="pl.bk20.forest.progress.ProgressFragment"
         android:label="@string/tree"
         tools:layout="@layout/fragment_progress" />
 
     <fragment
-        android:id="@+id/fragment_stats"
+        android:id="@+id/statsFragment"
         android:name="pl.bk20.forest.stats.StatsFragment"
         android:label="@string/stats"
         tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/forestFragment"
+        android:name="pl.bk20.forest.trees.ForestFragment"
+        android:label="@string/forest"
+        tools:layout="@layout/fragment_forest" />
 
 </navigation>

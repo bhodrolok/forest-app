@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@id/fragment_forest"
+        android:id="@+id/forestFragment"
         android:icon="@drawable/forest_fill0_wght400_grad0_opsz24"
         android:title="@string/forest" />
 
     <item
-        android:id="@id/fragment_progress"
+        android:id="@+id/progressFragment"
         android:icon="@drawable/nature_fill0_wght400_grad0_opsz24"
         android:title="@string/tree" />
 
     <item
-        android:id="@id/fragment_stats"
+        android:id="@+id/statsFragment"
         android:icon="@drawable/show_chart_fill0_wght400_grad0_opsz24"
         android:title="@string/stats" />
 
